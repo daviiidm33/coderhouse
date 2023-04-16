@@ -499,6 +499,14 @@ h2{
     padding-bottom: 5px;
     align-items: center;
 }
+
+@media(max-width:380px){
+    .navbartipodecabello{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* main */
 .tipodecabello-cards{
     background-image: url("https://images.unsplash.com/photo-1583507264623-e424bcc92e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
@@ -567,6 +575,78 @@ h2{
     grid-row-end: 3;
 }
 
+@media(max-width:380px){
+    .tipodecabello-cards{
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(7,1fr);
+    }
+}
+@media(max-width:380px){
+    .p1tipodecabello{
+        display: none;
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+}
+@media(max-width:380px){
+    .h2tipodecabello{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+@media(max-width:380px){
+    .a1tipodecabello{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+@media(max-width:380px){
+    .a2tipodecabello{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+}
+@media(max-width:380px){
+    .a3tipodecabello{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+}
+@media(max-width:380px){
+    .a4tipodecabello{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+}
+@media(max-width:380px){
+    .a5tipodecabello{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+}
+@media(max-width:380px){
+    .a6tipodecabello{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+
 /* BARBEROS */
 /* header barberos */
 .conteiner-header-barberos{
@@ -591,6 +671,14 @@ h2{
     text-decoration: none;
     color: white;
 }
+
+@media(max-width:380px){
+    .navbarbarberos{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* Main Barberos */
 
 .barberos-cards{
@@ -635,10 +723,10 @@ h2{
 }
 .a5barberos{
     background-color: #DF2E38;
-    grid-column-start: 10;
-    grid-column-end: 11;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 5;
 }
 
 .p1barberos{
@@ -653,6 +741,70 @@ h2{
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+@media(max-width:380px){
+    .barberos-cards{
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(7,1fr);
+    }
+}
+@media(max-width:380px){
+    .p1barberos{
+        display: none;
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+}
+@media(max-width:380px){
+    .h2barberos{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+@media(max-width:380px){
+    .a1barberos{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+@media(max-width:380px){
+    .a2barberos{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+}
+@media(max-width:380px){
+    .a3barberos{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+}
+@media(max-width:380px){
+    .a4barberos{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+@media(max-width:380px){
+    .a5barberos{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
 }
 
 /* footer barberos */
