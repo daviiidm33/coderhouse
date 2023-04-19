@@ -1,0 +1,16 @@
+header{
+    background-color: #655DBB;
+    color: white;
+}
+.conteiner-header{
+    @include display (row wrap, none, space-evenly, none, none, none, none);
+}
+.navbarindex{
+    @include display (none, row, none, flex end, center, 30px, none);
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+.navbarr li a{
+    text-decoration: none;
+    color: white;
+}

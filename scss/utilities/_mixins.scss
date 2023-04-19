@@ -1,0 +1,10 @@
+@mixin display ($flow, $direction, $style, $justify, $align, $gap, $wrap){
+    display: flex;
+    flex-flow: $flow;
+    flex-direction: $direction;
+    list-style: $style;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+    flex-wrap: $wrap; 
+}

@@ -1,0 +1,11 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "En esta segunda parte del proyecto utilice las tecnologías requeridas que se dijo en clase, cada una de ellas separadas, una en el header, otra en el main, y otra en el footer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
