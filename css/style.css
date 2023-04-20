@@ -14,10 +14,11 @@ header {
   flex-flow: row wrap;
   flex-direction: none;
   list-style: space-evenly;
-  justify-content: none;
-  align-items: none;
+  justify-content: space-around;
+  align-items: center;
   gap: none;
   flex-wrap: none;
+  width: 100%;
 }
 
 .navbarindex {
@@ -25,7 +26,7 @@ header {
   flex-flow: none;
   flex-direction: row;
   list-style: none;
-  justify-content: flex end;
+  justify-content: flex-end;
   align-items: center;
   gap: 30px;
   flex-wrap: none;
@@ -36,6 +37,100 @@ header {
 .navbarr li a {
   text-decoration: none;
   color: white;
+}
+
+.conteiner-cards {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  background-image: url("https://images.unsplash.com/photo-1583507264623-e424bcc92e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  grid-column-start: 10;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #655DBB;
+}
+.conteiner-cards .a1index {
+  grid-column-start: 10;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #655DBB;
+}
+.conteiner-cards .a2index {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #655DBB;
+}
+.conteiner-cards .a3index {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background-color: #655DBB;
+}
+.conteiner-cards .a4index {
+  grid-column-start: 10;
+  grid-column-end: 11;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  background-color: #655DBB;
+}
+.conteiner-cards .a5index {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: #655DBB;
+}
+.conteiner-cards .t1index {
+  grid-column-start: 10;
+  grid-column-end: 11;
+  grid-row-start: 4;
+  grid-row-end: 3;
+  background-color: #655DBB;
+}
+.conteiner-cards .t2index {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: #655DBB;
+}
+.conteiner-cards .t3index {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: #655DBB;
+}
+.conteiner-cards .t4index {
+  grid-column-start: 10;
+  grid-column-end: 11;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  background-color: #655DBB;
+}
+
+.mb-3 {
+  display: flex;
+  flex-flow: none;
+  flex-direction: row;
+  list-style: none;
+  justify-content: none;
+  align-items: right;
+  gap: none;
+  flex-wrap: none;
+  gap: 30px;
+  padding-top: 35px;
+  padding-bottom: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

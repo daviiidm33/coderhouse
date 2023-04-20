@@ -3,10 +3,11 @@ header{
     color: white;
 }
 .conteiner-header{
-    @include display (row wrap, none, space-evenly, none, none, none, none);
+    @include display (row wrap, none, space-evenly, space-around, center, none, none);
+    width: 100%;
 }
 .navbarindex{
-    @include display (none, row, none, flex end, center, 30px, none);
+    @include display (none, row, none, flex-end, center, 30px, none);
     padding-top: 35px;
     padding-bottom: 5px;
 }
@@ -14,3 +15,4 @@ header{
     text-decoration: none;
     color: white;
 }
+

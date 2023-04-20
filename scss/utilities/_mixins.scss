@@ -8,3 +8,14 @@
     gap: $gap;
     flex-wrap: $wrap; 
 }
+@mixin grid($cols, $rows){
+    display: grid;
+    grid-template-columns: $cols;
+    grid-template-rows: $rows;
+}
+@mixin grid-order($cs, $cn, $rs, $rn){
+    grid-column-start: $cs;
+    grid-column-end: $cn;
+    grid-row-start: $rs;
+    grid-row-end: $rn;
+}
