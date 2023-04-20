@@ -1,15 +1,15 @@
-# Segunda parte Proyecto final
+# Tercera parte Proyecto final
 
-En esta segunda parte del proyecto utilice las tecnologías requeridas que se dijo en clase, cada una de ellas separadas, una en el header, otra en el main, y otra en el footer.
+En este tercera parte utilize todo el scss en el index, solo esta en el index porque se me dificulto al principio y me demore mucho con errores bobos, sin embargo al final entendi bien y aplique de manera correcta el codigo. Asi mismo la instalacion del scss fue todo un exito y el seo, esta completamente instaurado en todos los html. Por ultimo, no sé aplique el responsive porque llegue un poco tarde y no se muy bien como toca con todo el tema del mixin y eso, cabe aclarar que ya tengo todos los responsive de todos html listos.
 
 
 # Pagina Web
 
-Esta pagina web la hago mas por aprender de codigo, no soy muy bueno en el diseño pero creo que se me da muy bien el codigo. Sin embargo el fin de crear la pagina web con la tematica de productos para la mujer es debido a que mi papá tiene una empresa y el en el momento necesita una pagina web para su empresa. Por eso le voy a ayudar y asi mi primer trabajo relacionado con esto de la programacion sea con el.
+Esta pagina web la hago mas por aprender de codigo, no pienso publicarla la verdad(si es necesaria para el proyecto final lo hare, pero despues lo eliminare.), para ser sincero mi padre y yo llegamos a diferentes conclusiones sobre como el iba a querer la pagina web, el la verdad quiere literal copiarse de otro sitio web y pues eso para mi experiencia, no me sirve.
 
 ## Tecnologias que utilice
 
-En este proyecto utilice las bases de html, tratando de que el codigo quedara bien y asi enfocarme en el diseño, en el css utilize flex, grid y bootstrap.
+En este proyecto utilice las bases de html, tratando de que el codigo quedara bien y asi enfocarme en el diseño, en el css utilize flex, grid y bootstrap. Añadirle a esto scss, y mixin, al principio se me dificulto muchisimo, pero luego, cuando le cojes el tiro todo es mucho mas facil y rapido gracias al mixin.
 
 ## Flex
 
