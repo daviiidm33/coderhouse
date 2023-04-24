@@ -1,6 +1,6 @@
 # Tercera parte Proyecto final
 
-En este tercera parte utilize todo el scss en el index, solo esta en el index porque se me dificulto al principio y me demore mucho con errores bobos, sin embargo al final entendi bien y aplique de manera correcta el codigo. Asi mismo la instalacion del scss fue todo un exito y el seo, esta completamente instaurado en todos los html. Por ultimo, no sé aplique el responsive porque llegue un poco tarde y no se muy bien como toca con todo el tema del mixin y eso, cabe aclarar que ya tengo todos los responsive de todos html listos.
+En este tercera parte utilize todo el scss en el index, solo esta en el index porque se me dificulto al principio y me demore mucho con errores bobos, sin embargo al final entendi bien y aplique de manera correcta el codigo. Asi mismo la instalacion del scss fue todo un exito y el seo, esta completamente instaurado en todos los html. Cabe aclarar que no sé si aplique de manera correcta el responsive en el scss porque llegue un poco tarde y no se muy bien como toca con todo el tema del mixin y eso, cabe aclarar que ya tengo todos los responsive de todos html listos. Y por ultimo tengo que decir que solo 1 html tiene estilo pero es porque el cambio con el scss me dio duro y lo queria entregar lo antes posible y no todo a ultima hora, sin embargo ya tengo el estilo de todos los html hecho.
 
 
 # Pagina Web
