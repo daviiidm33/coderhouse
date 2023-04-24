@@ -1,4 +1,4 @@
-.conteiner-cards{
+.productos-cards{
     @include grid (repeat(12,1fr), repeat(7,1fr));
     background-image: url("https://images.unsplash.com/photo-1583507264623-e424bcc92e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
     width: 100%;
@@ -6,40 +6,32 @@
     background-position: center;
     background-size: cover;
     color: white;
-        .a1index{
-            @include grid-order (10,11,2,3);
-            background-color: #655DBB;
-        }
-        .a2index{
-            @include grid-order (8,9,2,3);
-            background-color: #655DBB;
-        }
-        .a3index{
-            @include grid-order (8,9,5,6);
-            background-color: #655DBB;
-        }
-        .a4index{
-            @include grid-order (10,11,5,6);
-            background-color: #655DBB;
-        }
-        .a5index{
-            @include grid-order (2,5,2,4);
-            background-color: #655DBB;
-        }
-        .t1index{
+        .a1productos{
             @include grid-order (10,11,4,3);
             background-color: #655DBB;
         }
-        .t2index{
+        .a2productos{
             @include grid-order (8,9,3,4);
             background-color: #655DBB;
         }
-        .t3index{
-            @include grid-order (8,9,6,7);
+        .a3productos{
+            @include grid-order (9,10,4,5);
             background-color: #655DBB;
         }
-        .t4index{
-            @include grid-order (10,11,6,7);
+        .a4productos{
+            @include grid-order (10,11,5,6);
+            background-color: #655DBB;
+        }
+        .a5productos{
+            @include grid-order (8,9,5,6);
+            background-color: #655DBB;
+        }
+        .p1productos{
+            @include grid-order (2,6,4,5);
+            background-color: #655DBB;
+        }
+        .h2productos{
+            @include grid-order (2,5,2,3);
             background-color: #655DBB;
         }
     }

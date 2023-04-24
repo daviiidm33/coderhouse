@@ -1,0 +1,17 @@
+header{
+    background-color: #655DBB;
+    color: white;
+}
+.conteiner-header-tipodecabello{
+    @include display (row wrap, none, space-evenly, space-around, center, none, none);
+    width: 100%;
+}
+.navbartipodecabello{
+    @include display (none, row, none, flex-end, center, 30px, none);
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+.navbarr li a{
+    text-decoration: none;
+    color: white;
+}

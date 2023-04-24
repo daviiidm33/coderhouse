@@ -1,12 +1,12 @@
-header{
-    background-color: #655DBB;
+.conteiner-header-barberos{
+    background-color: #DF2E38;
     color: white;
 }
-.conteiner-header-marcas{
+.conteiner-header-barberos{
     @include display (row wrap, none, space-evenly, space-around, center, none, none);
     width: 100%;
 }
-.navbarmarcas{
+.navbarbarberos{
     @include display (none, row, none, flex-end, center, 30px, none);
     padding-top: 35px;
     padding-bottom: 5px;
