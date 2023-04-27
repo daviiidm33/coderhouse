@@ -15,4 +15,10 @@ header{
     text-decoration: none;
     color: white;
 }
+@media (max-width: 380px) {
+    .navbarindex{
+        @include display (none, column, none, none, none, none, none)
+    }
+}
+
 

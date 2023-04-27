@@ -43,3 +43,39 @@
             background-color: #655DBB;
         }
     }
+
+    @media(max-width:380px){
+        .conteiner-cards{
+            @include grid (repeat(5,1fr), repeat(7,1fr));
+        }
+        .a5index{
+            display: none;
+        }
+        .a4index{
+            display: none;
+        }
+        .a3index{
+            display: none;
+        }
+        .a2index{
+            display: none;
+        }
+        .a1index{
+            display: none;
+        }
+        .t4index{
+            @include grid-order (6,4,4,4);
+        }
+        .t3index{
+            @include grid-order (1,3,5,6);
+        }
+        .t2index{
+            @include grid-order (6,4,2,3);
+        }
+        .t1index{
+            @include grid-order (1,3,3,4);
+        }
+        .h2marcas{
+            @include grid-order (1,3,3,4);
+        }
+    }

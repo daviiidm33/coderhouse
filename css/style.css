@@ -39,6 +39,18 @@ header {
   color: white;
 }
 
+@media (max-width: 380px) {
+  .navbarindex {
+    display: flex;
+    flex-flow: none;
+    flex-direction: column;
+    list-style: none;
+    justify-content: none;
+    align-items: none;
+    gap: none;
+    flex-wrap: none;
+  }
+}
 .conteiner-cards {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -114,6 +126,58 @@ header {
   background-color: #655DBB;
 }
 
+@media (max-width: 380px) {
+  .conteiner-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+  }
+  .a5index {
+    display: none;
+  }
+  .a4index {
+    display: none;
+  }
+  .a3index {
+    display: none;
+  }
+  .a2index {
+    display: none;
+  }
+  .a1index {
+    display: none;
+  }
+  .t4index {
+    grid-column-start: 6;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+  .t3index {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .t2index {
+    grid-column-start: 6;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .t1index {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .h2marcas {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
 .mb-3 {
   display: flex;
   flex-flow: none;
