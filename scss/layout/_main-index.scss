@@ -29,6 +29,7 @@
         .t1index{
             @include grid-order (10,11,4,3);
             background-color: #655DBB;
+            color: white; 
         }
         .t2index{
             @include grid-order (8,9,3,4);
@@ -41,6 +42,18 @@
         .t4index{
             @include grid-order (10,11,6,7);
             background-color: #655DBB;
+        }
+        .Productos1{
+            color: white;
+        }
+        .Marcas1{
+            color: white;
+        }
+        .Tipos-de-cabello-1{
+            color: white;
+        }
+        .Barberia1{
+            color: white;
         }
     }
 

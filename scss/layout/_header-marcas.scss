@@ -10,6 +10,24 @@ header{
     @include display (none, row, none, flex-end, center, 30px, none);
     padding-top: 35px;
     padding-bottom: 5px;
+    .Iniciobar{
+        color: white;
+    }
+    .Marcasbar{
+        color: white;
+    }
+    .Productosbar{
+        color: white;
+    }
+    .Tipos-de-cabello-Bar{
+        color: white;
+    }
+    .Barberiabar{
+        color: white;
+    }
+    .Contactanosbar{
+        color: white;
+    }
 }
 .navbarr li a{
     text-decoration: none;
