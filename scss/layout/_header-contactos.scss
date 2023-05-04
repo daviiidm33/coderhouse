@@ -2,11 +2,11 @@ header{
     background-color: #655DBB;
     color: white;
 }
-.conteiner-header-barberia{
+.conteiner-header-contactos{
     @include display (row wrap, none, space-evenly, space-around, center, none, none);
     width: 100%;
 }
-.navbarbarberia{
+.navbarcontactos{
     @include display (none, row, none, flex-end, center, 30px, none);
     padding-top: 35px;
     padding-bottom: 5px;
@@ -32,4 +32,9 @@ header{
 .navbarr li a{
     text-decoration: none;
     color: white;
+}
+@media (max-width: 380px) {
+    .navbarcontactos{
+        @include display (none, column, none, none, none, none, none)
+    }
 }

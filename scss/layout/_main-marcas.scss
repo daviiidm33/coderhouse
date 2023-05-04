@@ -1,3 +1,4 @@
+@media(min-width:768px) and (max-width:2560px){
 .marcas-cards{
     @include grid (repeat(12,1fr), repeat(7,1fr));
     background-image: url("https://images.unsplash.com/photo-1583507264623-e424bcc92e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
@@ -6,28 +7,58 @@
     background-position: center;
     background-size: cover;
     color: white;
+    .a1marcas{
+        @include grid-order (10,11,2,3);
+        background-color: #655DBB;
+        }
+        .a2marcas{
+        @include grid-order (8,9,2,3);
+        background-color: #655DBB;
+        }
+        .a3marcas{
+        @include grid-order (8,9,5,6);
+        background-color: #655DBB;
+        }
+        .a4marcas{
+        @include grid-order (10,11,5,6);
+        background-color: #655DBB;
+        }
+        .p1marcas{
+        @include grid-order (2,6,4,5);
+        background-color: #655DBB;
+        }
+        .h2marcas{
+        @include grid-order (2,5,2,3);
+        background-color: #655DBB;
+        }
     }
-.a1marcas{
-@include grid-order (10,11,2,3);
-background-color: #655DBB;
 }
-.a2marcas{
-@include grid-order (8,9,2,3);
-background-color: #655DBB;
-}
-.a3marcas{
-@include grid-order (8,9,5,6);
-background-color: #655DBB;
-}
-.a4marcas{
-@include grid-order (10,11,5,6);
-background-color: #655DBB;
-}
-.p1marcas{
-@include grid-order (2,6,4,5);
-background-color: #655DBB;
-}
-.h2marcas{
-@include grid-order (2,5,2,3);
-background-color: #655DBB;
-}
+    @media(min-width:320px) and (max-width:767px){
+        .marcas-cards{
+            @include grid (repeat(5,1fr), repeat(7,1fr));
+            background-image: url("https://images.unsplash.com/photo-1583507264623-e424bcc92e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+            width: 100%;
+            height: 600px;
+            background-position: center;
+            background-size: cover;
+            color: white;
+        }
+        .a1marcas{
+            @include grid-order (2,3,4,5);
+        }
+        .a2marcas{
+            @include grid-order (4,5,6,7);
+        }
+        .a3marcas{
+            @include grid-order (2,3,6,7);
+        }
+        .a4marcas{
+            @include grid-order (4,5,4,5);
+        }
+        .p1marcas{
+            @include grid-order (1,7,2,3);
+        }
+        .h2marcas{
+            @include grid-order (2,4,1,2);
+        }  
+    }
