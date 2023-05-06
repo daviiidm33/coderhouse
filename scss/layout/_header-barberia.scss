@@ -33,7 +33,12 @@
     text-decoration: none;
     color: white;
 }
-@media (max-width: 380px) {
+@media (max-width: 380px) and (max-width:767px) {
+    .navbarbarberos{
+        @include display (none, column, none, none, none, none, none)
+    }
+}
+@media(min-width:425px) and (max-width:893px){
     .navbarbarberos{
         @include display (none, column, none, none, none, none, none)
     }
