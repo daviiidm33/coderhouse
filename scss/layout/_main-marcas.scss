@@ -6,30 +6,30 @@
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: $color-primario;
     .a1marcas{
         @include grid-order (10,11,2,3);
-        background-color: #655DBB;
+        background-color: $color-secondary;
         }
         .a2marcas{
         @include grid-order (8,9,2,3);
-        background-color: #655DBB;
+        background-color: $color-secondary;
         }
         .a3marcas{
         @include grid-order (8,9,5,6);
-        background-color: #655DBB;
+        background-color: $color-secondary;
         }
         .a4marcas{
         @include grid-order (10,11,5,6);
-        background-color: #655DBB;
+        background-color: $color-secondary;
         }
         .p1marcas{
         @include grid-order (2,6,4,5);
-        background-color: #655DBB;
+        background-color: $color-secondary;
         }
         .h2marcas{
         @include grid-order (2,5,2,3);
-        background-color: #655DBB;
+        background-color: $color-secondary;
         }
     }
 }
@@ -41,7 +41,7 @@
             height: 600px;
             background-position: center;
             background-size: cover;
-            color: white;
+            color: $color-primario;
         }
         .a1marcas{
             @include grid-order (2,3,4,5);

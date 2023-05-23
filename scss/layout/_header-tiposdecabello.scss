@@ -1,6 +1,6 @@
 header{
-    background-color: #655DBB;
-    color: white;
+    background-color: $color-secondary;
+    color: $color-primario;
 }
 .conteiner-header-tipodecabello{
     @include display (row wrap, none, space-evenly, space-around, center, none, none);
@@ -11,27 +11,27 @@ header{
     padding-top: 35px;
     padding-bottom: 5px;
     .Iniciobar{
-        color: white;
+        color: $color-primario;
     }
     .Marcasbar{
-        color: white;
+        color: $color-primario;
     }
     .Productosbar{
-        color: white;
+        color: $color-primario;
     }
     .Tipos-de-cabello-Bar{
-        color: white;
+        color: $color-primario;
     }
     .Barberiabar{
-        color: white;
+        color: $color-primario;
     }
     .Contactanosbar{
-        color: white;
+        color: $color-primario;
     }
 }
 .navbarr li a{
     text-decoration: none;
-    color: white;
+    color: $color-primario;
 }
 @media (max-width: 380px) {
     .navbartipodecabello{

@@ -1,6 +1,6 @@
 .conteiner-header-barberos{
-    background-color: #DF2E38;
-    color: white;
+    background-color: $color-tercero;
+    color: $color-primario;
 }
 .conteiner-header-barberos{
     @include display (row wrap, none, space-evenly, space-around, center, none, none);
@@ -11,27 +11,27 @@
     padding-top: 35px;
     padding-bottom: 5px;
     .Iniciobar{
-        color: white;
+        color: $color-primario;
     }
     .Marcasbar{
-        color: white;
+        color: $color-primario;
     }
     .Productosbar{
-        color: white;
+        color: $color-primario;
     }
     .Tipos-de-cabello-Bar{
-        color: white;
+        color: $color-primario;
     }
     .Barberiabar{
-        color: white;
+        color: $color-primario;
     }
     .Contactanosbar{
-        color: white;
+        color: $color-primario;
     }
 }
 .navbarr li a{
     text-decoration: none;
-    color: white;
+    color: $color-primario;
 }
 @media (max-width: 380px) and (max-width:767px) {
     .navbarbarberos{

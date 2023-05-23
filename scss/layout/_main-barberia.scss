@@ -6,34 +6,34 @@
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: $color-primario;
         .a1barberos{
             @include grid-order (10,11,4,3);
-            background-color: #DF2E38;
+            background-color: $color-tercero;
         }
         .a2barberos{
             @include grid-order (8,9,3,4);
-            background-color: #DF2E38;
+            background-color: $color-tercero;
         }
         .a3barberos{
             @include grid-order (9,10,4,5);
-            background-color: #DF2E38;
+            background-color: $color-tercero;
         }
         .a4barberos{
             @include grid-order (10,11,5,6);
-            background-color: #DF2E38;
+            background-color: $color-tercero;
         }
         .a5barberos{
             @include grid-order (8,9,5,6);
-            background-color: #DF2E38;
+            background-color: $color-tercero;
         }
         .p1barberos{
             @include grid-order (2,6,4,5);
-            background-color: #DF2E38;
+            background-color: $color-tercero;
         }
         .h2barberos{
             @include grid-order (2,5,2,3);
-            background-color: #DF2E38;
+            background-color: $color-tercero;
         }
     }
 }
@@ -45,7 +45,7 @@
         height: 600px;
         background-position: center;
         background-size: cover;
-        color: white;
+        color: $color-primario;
     }
     .a1barberos{
         @include grid-order (2,3,4,5);
@@ -77,7 +77,7 @@
         height: 600px;
         background-position: center;
         background-size: cover;
-        color: white;
+        color: $color-primario;
     }
     .a1barberos{
         @include grid-order (2,3,4,5);

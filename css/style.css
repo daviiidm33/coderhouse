@@ -6,7 +6,7 @@
 
 header {
   background-color: #655DBB;
-  color: white;
+  color: #FFFFFF;
 }
 
 .conteiner-header {
@@ -34,27 +34,27 @@ header {
   padding-bottom: 5px;
 }
 .navbarindex .Iniciobar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarindex .Marcasbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarindex .Productosbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarindex .Tipos-de-cabello-Bar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarindex .Barberiabar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarindex .Contactanosbar {
-  color: white;
+  color: #FFFFFF;
 }
 
 .navbarr li a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 
 @media (max-width: 380px) {
@@ -79,7 +79,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .a1index {
     grid-column-start: 10;
@@ -122,7 +122,7 @@ header {
     grid-row-start: 4;
     grid-row-end: 3;
     background-color: #655DBB;
-    color: white;
+    color: #FFFFFF;
   }
   .t2index {
     grid-column-start: 8;
@@ -146,16 +146,16 @@ header {
     background-color: #655DBB;
   }
   .Productos1 {
-    color: white;
+    color: #FFFFFF;
   }
   .Marcas1 {
-    color: white;
+    color: #FFFFFF;
   }
   .Tipos-de-cabello-1 {
-    color: white;
+    color: #FFFFFF;
   }
   .Barberia1 {
-    color: white;
+    color: #FFFFFF;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -168,7 +168,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .a5index {
     display: none;
@@ -230,21 +230,21 @@ header {
     background-color: #655DBB;
   }
   .Productos1 {
-    color: white;
+    color: #FFFFFF;
   }
   .Marcas1 {
-    color: white;
+    color: #FFFFFF;
   }
   .Tipos-de-cabello-1 {
-    color: white;
+    color: #FFFFFF;
   }
   .Barberia1 {
-    color: white;
+    color: #FFFFFF;
   }
 }
 header {
   background-color: #655DBB;
-  color: white;
+  color: #FFFFFF;
 }
 
 .conteiner-header-marcas {
@@ -272,27 +272,27 @@ header {
   padding-bottom: 5px;
 }
 .navbarmarcas .Iniciobar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarmarcas .Marcasbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarmarcas .Productosbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarmarcas .Tipos-de-cabello-Bar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarmarcas .Barberiabar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarmarcas .Contactanosbar {
-  color: white;
+  color: #FFFFFF;
 }
 
 .navbarr li a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 
 @media (max-width: 380px) {
@@ -317,7 +317,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .marcas-cards .a1marcas {
     grid-column-start: 10;
@@ -372,7 +372,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .a1marcas {
     grid-column-start: 2;
@@ -413,7 +413,7 @@ header {
 }
 header {
   background-color: #655DBB;
-  color: white;
+  color: #FFFFFF;
 }
 
 .conteiner-header-productos {
@@ -441,27 +441,27 @@ header {
   padding-bottom: 5px;
 }
 .navbarproductos .Iniciobar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarproductos .Marcasbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarproductos .Productosbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarproductos .Tipos-de-cabello-Bar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarproductos .Barberiabar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarproductos .Contactanosbar {
-  color: white;
+  color: #FFFFFF;
 }
 
 .navbarr li a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 
 @media (max-width: 380px) {
@@ -486,7 +486,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .productos-cards .a1productos {
     grid-column-start: 10;
@@ -548,7 +548,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .a1productos {
     grid-column-start: 2;
@@ -595,7 +595,7 @@ header {
 }
 header {
   background-color: #655DBB;
-  color: white;
+  color: #FFFFFF;
 }
 
 .conteiner-header-tipodecabello {
@@ -623,27 +623,27 @@ header {
   padding-bottom: 5px;
 }
 .navbartipodecabello .Iniciobar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbartipodecabello .Marcasbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbartipodecabello .Productosbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbartipodecabello .Tipos-de-cabello-Bar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbartipodecabello .Barberiabar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbartipodecabello .Contactanosbar {
-  color: white;
+  color: #FFFFFF;
 }
 
 .navbarr li a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 
 @media (max-width: 380px) {
@@ -668,7 +668,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .tipodecabello-cards .a1tipodecabello {
     grid-column-start: 10;
@@ -737,7 +737,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .a1tipodecabello {
     grid-column-start: 2;
@@ -790,7 +790,7 @@ header {
 }
 .conteiner-header-barberos {
   background-color: #DF2E38;
-  color: white;
+  color: #FFFFFF;
 }
 
 .conteiner-header-barberos {
@@ -818,27 +818,27 @@ header {
   padding-bottom: 5px;
 }
 .navbarbarberos .Iniciobar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarbarberos .Marcasbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarbarberos .Productosbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarbarberos .Tipos-de-cabello-Bar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarbarberos .Barberiabar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarbarberos .Contactanosbar {
-  color: white;
+  color: #FFFFFF;
 }
 
 .navbarr li a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 
 @media (max-width: 380px) and (max-width: 767px) {
@@ -875,7 +875,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .barberos-cards .a1barberos {
     grid-column-start: 10;
@@ -937,7 +937,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .a1barberos {
     grid-column-start: 2;
@@ -992,7 +992,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .a1barberos {
     grid-column-start: 2;
@@ -1047,7 +1047,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .conteiner-contacto .input-nombre {
     grid-column-start: 5;
@@ -1095,7 +1095,7 @@ header {
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: #FFFFFF;
   }
   .input-nombre {
     grid-column-start: 2;
@@ -1130,7 +1130,7 @@ header {
 }
 header {
   background-color: #655DBB;
-  color: white;
+  color: #FFFFFF;
 }
 
 .conteiner-header-contactos {
@@ -1158,27 +1158,27 @@ header {
   padding-bottom: 5px;
 }
 .navbarcontactos .Iniciobar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarcontactos .Marcasbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarcontactos .Productosbar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarcontactos .Tipos-de-cabello-Bar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarcontactos .Barberiabar {
-  color: white;
+  color: #FFFFFF;
 }
 .navbarcontactos .Contactanosbar {
-  color: white;
+  color: #FFFFFF;
 }
 
 .navbarr li a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 
 @media (max-width: 380px) {

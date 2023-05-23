@@ -6,38 +6,38 @@
     height: 600px;
     background-position: center;
     background-size: cover;
-    color: white;
+    color: $color-primario;
         .a1tipodecabello{
             @include grid-order (10,11,3,4);
-            background-color: #655DBB;
+            background-color: $color-secondary;
         }
         .a2tipodecabello{
             @include grid-order (8,9,3,4);
-            background-color: #655DBB;
+            background-color: $color-secondary;
         }
         .a3tipodecabello{
             @include grid-order (8,9,4,5);
-            background-color: #655DBB;
+            background-color: $color-secondary;
         }
         .a4tipodecabello{
             @include grid-order (10,11,5,6);
-            background-color: #655DBB;
+            background-color: $color-secondary;
         }
         .a5tipodecabello{
             @include grid-order (8,9,5,6);
-            background-color: #655DBB;
+            background-color: $color-secondary;
         }
         .a6tipodecabello{
             @include grid-order (10,11,4,5);
-            background-color: #655DBB;
+            background-color: $color-secondary;
         }
         .p1tipodecabello{
             @include grid-order (2,6,4,5);
-            background-color: #655DBB;
+            background-color: $color-secondary;
         }
         .h2tipodecabello{
             @include grid-order (2,5,2,3);
-            background-color: #655DBB;
+            background-color: $color-secondary;
         }
     }
 }
@@ -49,7 +49,7 @@
         height: 600px;
         background-position: center;
         background-size: cover;
-        color: white;
+        color: $color-primario;
     }
     .a1tipodecabello{
         @include grid-order (2,3,4,5);
