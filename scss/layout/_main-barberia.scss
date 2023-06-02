@@ -101,3 +101,58 @@
         @include grid-order (2,4,1,2);
     } 
 }
+@media(min-width:768px) and (max-width:2560px){
+        .contenido-adicional-barberia{
+        @include grid (repeat(12,1fr), repeat(7,1fr));
+        background-color: $color-tercero;
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+        color: $color-primario;
+            .h3CABA{
+                @include grid-order (2,7,1,2);
+                background-color: $color-septimo;
+            }
+            .caba1{
+                @include grid-order (4,7,2,3);
+                background-color: $color-septimo;
+            }
+            .caba2{
+                @include grid-order (4,7,3,4);
+                background-color: $color-septimo;
+            }
+            .caba3{
+                @include grid-order (4,7,4,5);
+                background-color: $color-septimo;
+            }
+            .caba4{
+                @include grid-order (9,12,4,5);
+                background-color: $color-septimo;
+            }
+            .caba5{
+                @include grid-order (9,12,2,3);
+                background-color: $color-septimo;
+            }
+            .cabai1{
+                @include grid-order (2,4,2,3);
+                background-color: $color-septimo;
+            }
+            .cabai2{
+                @include grid-order (2,4,3,4);
+                background-color: $color-septimo;
+            }
+            .cabai3{
+                @include grid-order (2,4,4,5);
+                background-color: $color-septimo;
+            }
+            .cabai4{
+                @include grid-order (8,9,4,5);
+                background-color: $color-septimo;
+            }
+            .cabai5{
+                @include grid-order (8,9,2,3);
+                background-color: $color-septimo;
+            }
+        }
+    }

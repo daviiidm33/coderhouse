@@ -36,14 +36,17 @@
         .t2index{
             @include grid-order (8,9,3,4);
             background-color: $color-secondary;
+            color: $color-primario; 
         }
         .t3index{
             @include grid-order (8,9,6,7);
             background-color: $color-secondary;
+            color: $color-primario; 
         }
         .t4index{
             @include grid-order (10,11,6,7);
             background-color: $color-secondary;
+            color: $color-primario; 
         }
         .Productos1{
             color: $color-primario;

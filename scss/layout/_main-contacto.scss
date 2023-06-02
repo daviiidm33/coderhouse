@@ -8,24 +8,30 @@
     background-size: cover;
     color: $color-primario;
         .input-nombre{
-            @include grid-order (5,9,3,4);
+            @include grid-order (5,10,3,4);
             background-color: $color-secondary;
         }
         .email-input{
-            @include grid-order (5,9,4,5);
+            @include grid-order (5,10,4,5);
             background-color: $color-secondary;
         }
         .celular-input{
-            @include grid-order (5,9,5,6);
+            @include grid-order (5,10,5,6);
             background-color: $color-secondary;
         }
         .Dudas-input{
-            @include grid-order (5,9,6,7);
+            @include grid-order (5,10,6,7);
             background-color: $color-secondary;
         }
         .h2contactos{
-        @include grid-order (6,8,2,3);
+        @include grid-order (6,9,2,3);
         background-color: $color-secondary;
+        text-align: center
+        }
+        .submit-button{
+        @include grid-order (7,8,7,8);
+        background-color: $color-secondary;
+        text-align: center;
         }
     }
 }
@@ -54,4 +60,7 @@
     .h2contactos{
         @include grid-order (2,4,2,3);
     } 
+    .submit-button{
+        @include grid-order (3,4,7,8);
+    }
 }

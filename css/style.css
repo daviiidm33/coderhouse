@@ -130,6 +130,7 @@ header {
     grid-row-start: 3;
     grid-row-end: 4;
     background-color: #655DBB;
+    color: #FFFFFF;
   }
   .t3index {
     grid-column-start: 8;
@@ -137,6 +138,7 @@ header {
     grid-row-start: 6;
     grid-row-end: 7;
     background-color: #655DBB;
+    color: #FFFFFF;
   }
   .t4index {
     grid-column-start: 10;
@@ -144,6 +146,7 @@ header {
     grid-row-start: 6;
     grid-row-end: 7;
     background-color: #655DBB;
+    color: #FFFFFF;
   }
   .Productos1 {
     color: #FFFFFF;
@@ -314,7 +317,7 @@ header {
     grid-template-rows: repeat(7, 1fr);
     background-image: url("https://images.unsplash.com/photo-1583507264623-e424bcc92e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-position: center;
     background-size: cover;
     color: #FFFFFF;
@@ -409,6 +412,98 @@ header {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+  }
+}
+@media (min-width: 768px) and (max-width: 2560px) {
+  .contenido-adicional {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background-image: url("https://i.pinimg.com/736x/13/a9/a9/13a9a9b5920a2fdd56a39f516e59c704--purple-backgrounds-wallpaper-backgrounds.jpg");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  .contenido-adicional .h3CA {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #655DBB;
+    text-align: center;
+  }
+  .contenido-adicional .ca1 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #655DBB;
+  }
+  .contenido-adicional .ca2 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #655DBB;
+  }
+  .contenido-adicional .ca3 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #655DBB;
+  }
+  .contenido-adicional .ca4 {
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: #655DBB;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .contenido-adicional {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background-image: url("https://i.pinimg.com/736x/13/a9/a9/13a9a9b5920a2fdd56a39f516e59c704--purple-backgrounds-wallpaper-backgrounds.jpg");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  .h3CA {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .ca1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .ca2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .ca3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .ca4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
   }
 }
 header {
@@ -591,6 +686,179 @@ header {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+  }
+}
+@media (min-width: 768px) and (max-width: 2560px) {
+  .contenido-adicional-productos {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background-color: #655DBB;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  .contenido-adicional-productos .h3CAP {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #655DBB;
+  }
+  .contenido-adicional-productos .cap1 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #796EA8;
+  }
+  .contenido-adicional-productos .cap2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #796EA8;
+  }
+  .contenido-adicional-productos .cap3 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #796EA8;
+  }
+  .contenido-adicional-productos .cap4 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #796EA8;
+  }
+  .contenido-adicional-productos .cap5 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #796EA8;
+  }
+  .contenido-adicional-productos .capi1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #655DBB;
+  }
+  .contenido-adicional-productos .capi2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #655DBB;
+  }
+  .contenido-adicional-productos .capi3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #655DBB;
+  }
+  .contenido-adicional-productos .capi4 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #655DBB;
+  }
+  .contenido-adicional-productos .capi5 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #655DBB;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .contenido-adicional-productos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background-image: url("https://images.unsplash.com/photo-1583507264623-e424bcc92e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  .h3CAP {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .cap1 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .cap2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .cap3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .cap4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    display: none;
+  }
+  .cap5 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    display: none;
+  }
+  .capi1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .capi2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .capi3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .capi4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    display: none;
+  }
+  .capi5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    display: none;
   }
 }
 header {
@@ -786,6 +1054,102 @@ header {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+  }
+}
+@media (min-width: 768px) and (max-width: 2560px) {
+  .contenido-adicional-tpc {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-morado-rosa-nublado_91008-257.jpg?w=996&t=st=1685668290~exp=1685668890~hmac=8662e12f6dc46d0427199d2237f92c38fc448ec62f7daa347d157086e1b185b1");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  .contenido-adicional-tpc .h3CLLO {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #030305;
+  }
+  .contenido-adicional-tpc .cllo1 {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #655DBB;
+  }
+  .contenido-adicional-tpc .cllo2 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #655DBB;
+  }
+  .contenido-adicional-tpc .cllo3 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #655DBB;
+    text-align: center;
+  }
+  .contenido-adicional-tpc .video-iframe {
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 6;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .contenido-adicional-tpc {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-morado-rosa-nublado_91008-257.jpg?w=996&t=st=1685668290~exp=1685668890~hmac=8662e12f6dc46d0427199d2237f92c38fc448ec62f7daa347d157086e1b185b1");
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  .h3CLLO {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 1;
+    color: black;
+  }
+  .cllo1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: black;
+  }
+  .cllo2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color: black;
+  }
+  .cllo3 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    color: black;
+  }
+  .video-iframe {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    display: none;
   }
 }
 .conteiner-header-barberos {
@@ -1038,6 +1402,96 @@ header {
   }
 }
 @media (min-width: 768px) and (max-width: 2560px) {
+  .contenido-adicional-barberia {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background-color: #DF2E38;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  .contenido-adicional-barberia .h3CABA {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #8b0000;
+  }
+  .contenido-adicional-barberia .caba1 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #8b0000;
+  }
+  .contenido-adicional-barberia .caba2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #8b0000;
+  }
+  .contenido-adicional-barberia .caba3 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #8b0000;
+  }
+  .contenido-adicional-barberia .caba4 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #8b0000;
+  }
+  .contenido-adicional-barberia .caba5 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #8b0000;
+  }
+  .contenido-adicional-barberia .cabai1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #8b0000;
+  }
+  .contenido-adicional-barberia .cabai2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #8b0000;
+  }
+  .contenido-adicional-barberia .cabai3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #8b0000;
+  }
+  .contenido-adicional-barberia .cabai4 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #8b0000;
+  }
+  .contenido-adicional-barberia .cabai5 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #8b0000;
+  }
+}
+@media (min-width: 768px) and (max-width: 2560px) {
   .conteiner-contacto {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -1051,38 +1505,47 @@ header {
   }
   .conteiner-contacto .input-nombre {
     grid-column-start: 5;
-    grid-column-end: 9;
+    grid-column-end: 10;
     grid-row-start: 3;
     grid-row-end: 4;
     background-color: #655DBB;
   }
   .conteiner-contacto .email-input {
     grid-column-start: 5;
-    grid-column-end: 9;
+    grid-column-end: 10;
     grid-row-start: 4;
     grid-row-end: 5;
     background-color: #655DBB;
   }
   .conteiner-contacto .celular-input {
     grid-column-start: 5;
-    grid-column-end: 9;
+    grid-column-end: 10;
     grid-row-start: 5;
     grid-row-end: 6;
     background-color: #655DBB;
   }
   .conteiner-contacto .Dudas-input {
     grid-column-start: 5;
-    grid-column-end: 9;
+    grid-column-end: 10;
     grid-row-start: 6;
     grid-row-end: 7;
     background-color: #655DBB;
   }
   .conteiner-contacto .h2contactos {
     grid-column-start: 6;
-    grid-column-end: 8;
+    grid-column-end: 9;
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: #655DBB;
+    text-align: center;
+  }
+  .conteiner-contacto .submit-button {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background-color: #655DBB;
+    text-align: center;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1126,6 +1589,12 @@ header {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+  }
+  .submit-button {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
   }
 }
 header {

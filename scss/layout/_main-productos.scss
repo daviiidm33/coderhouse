@@ -69,3 +69,106 @@
         @include grid-order (2,4,1,2);
     } 
 }
+@media(min-width:768px) and (max-width:2560px){
+        .contenido-adicional-productos{
+        @include grid (repeat(12,1fr), repeat(7,1fr));
+        background-color: $color-secondary;
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+        color: $color-primario;
+            .h3CAP{
+                @include grid-order (2,7,1,2);
+                background-color: $color-secondary;
+            }
+            .cap1{
+                @include grid-order (4,7,2,3);
+                background-color: $color-quinto;
+            }
+            .cap2{
+                @include grid-order (4,7,3,4);
+                background-color: $color-quinto;
+            }
+            .cap3{
+                @include grid-order (4,7,4,5);
+                background-color: $color-quinto;
+            }
+            .cap4{
+                @include grid-order (9,12,4,5);
+                background-color: $color-quinto;
+            }
+            .cap5{
+                @include grid-order (9,12,2,3);
+                background-color: $color-quinto;
+            }
+            .capi1{
+                @include grid-order (2,4,2,3);
+                background-color: $color-secondary;
+            }
+            .capi2{
+                @include grid-order (2,4,3,4);
+                background-color: $color-secondary;
+            }
+            .capi3{
+                @include grid-order (2,4,4,5);
+                background-color: $color-secondary;
+            }
+            .capi4{
+                @include grid-order (8,9,4,5);
+                background-color: $color-secondary;
+            }
+            .capi5{
+                @include grid-order (8,9,2,3);
+                background-color: $color-secondary;
+            }
+        }
+    }
+@media(min-width:320px) and (max-width:767px){
+    .contenido-adicional-productos{
+        @include grid (repeat(5,1fr), repeat(7,1fr));
+        background-image: url("https://images.unsplash.com/photo-1583507264623-e424bcc92e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+            width: 100%;
+            height: 600px;
+            background-position: center;
+            background-size: cover;
+            color: $color-primario;
+        }
+    .h3CAP{
+        @include grid-order (3,4,1,1);
+    }
+    .cap1{
+        @include grid-order (3,5,2,3);
+    }
+    .cap2{
+        @include grid-order (3,5,3,4);
+    }
+    .cap3{
+        @include grid-order (3,5,4,5);
+    }
+    .cap4{
+        @include grid-order (3,5,5,6);
+        display: none;
+    }
+    .cap5{
+        @include grid-order (3,5,6,7);
+        display: none;
+    } 
+    .capi1{
+        @include grid-order (2,3,2,3);
+    }
+    .capi2{
+        @include grid-order (2,3,3,4);
+    } 
+    .capi3{
+        @include grid-order (2,3,4,5);
+    } 
+    .capi4{
+        @include grid-order (2,3,5,6);
+        display: none;
+    } 
+    .capi5{
+        @include grid-order (2,3,6,7);
+        display: none;
+    } 
+    }
